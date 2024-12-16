@@ -75,13 +75,11 @@ A **linked list** is a sequential list of nodes that hold data which point to ot
 Singly linked list only hold a reference to the next node.
 Doubly linked list hold a reference to the next and previous node.
 
-Pros:
-Singly linked: Uses less memory, simpler Implementation
-Doubly linked: Can be travgersed backwards
-
-Cons:
-Singly linked: Cannot easily access previous elements
-Doubly linked: Takes 2x memory
+### Pros and Cons
+| | Pros | Cons |
+| --- | --- | ---
+| Singly linked | Uses less memory / Simpler implementation | Cannot easilyacess previous elements
+| Doubly linked | Can be traversed backwards | Takes 2x memory
 
 ### Complexity
 
