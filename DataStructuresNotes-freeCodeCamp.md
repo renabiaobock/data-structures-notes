@@ -121,4 +121,3 @@ A queue is a linear data structure which models real world queues by having two 
  | Contains | O(n) |
  | Removal | O(n) |
  | Is Empty | O(1) |
- 
