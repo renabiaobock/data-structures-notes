@@ -85,7 +85,6 @@ Doubly linked: Takes 2x memory
 
 ### Complexity
 
-
 | | Singly Linked | Doubly linked |
 | --- | --- | --- |
 | Search | O(n) | O(n) |
