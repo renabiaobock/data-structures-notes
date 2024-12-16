@@ -104,3 +104,21 @@ Is a one-ended linear data structure which moels a real world stack by having tw
 | Peeking | O(1) |
 | Searching | O(n) |
 | Size | O(1) |
+
+## Queues
+
+A queue is a linear data structure which models real world queues by having two primary operations, namely **enqueue** and **dequeue**.
+
+**Enqueue:** put element in the back of the queue
+**Dequeue:** remove the element of the front of the queue
+
+ ### Complexity
+
+ | --- | --- |
+ | Enqueue | O(1) |
+ | Dequeue | O(1) |
+ | Peeking | O(1) |
+ | Contains | O(n) |
+ | Removal | O(n) |
+ | Is Empty | O(1) |
+ 
