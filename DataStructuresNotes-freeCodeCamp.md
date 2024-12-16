@@ -91,3 +91,16 @@ Doubly linked list hold a reference to the next and previous node.
 | Remove at head | O(1) | O(1) |
 | Remove at tail | O(n) | O(1) |
 | Remove in middle | O(n) | O(n) |
+
+## Stack
+
+Is a one-ended linear data structure which moels a real world stack by having two primary operations, namely **push** and **pop**.
+
+### Complexity
+
+| --- | --- |
+| Pushing | O(1) |
+| Popping | O(1) |
+| Peeking | O(1) |
+| Searching | O(n) |
+| Size | O(1) |
