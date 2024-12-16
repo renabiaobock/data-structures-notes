@@ -58,3 +58,37 @@ The dynamic array can **grow** and **shrink** in size.
 
 ### Complexity:
 ![Static and Dynamic Array Complexity](./static_and_dinamic_array_complexity.png)
+
+## Singly and Doubly Linked Lists
+
+### Linked list
+
+A **linked list** is a sequential list of nodes that hold data which point to other nodes also containing data.
+
+* Terminology:
+    * Head: The first node;
+    * Tail: The last node;
+    * Pointer: Reference to another node;
+    * Node: An object containing data and pointer(s)
+
+### Singly linked list vs. Doubly linked list
+Singly linked list only hold a reference to the next node.
+Doubly linked list hold a reference to the next and previous node.
+
+Pros:
+Singly linked: Uses less memory, simpler Implementation
+Doubly linked: Can be travgersed backwards
+
+Cons:
+Singly linked: Cannot easily access previous elements
+Doubly linked: Takes 2x memory
+
+### Complexity
+
+| | Singly Linked | Doubly linked |
+| Search | O(n) | O(n) |
+| Insert at head | O(1) | O(1) |
+| Insert at tail | O(1) | O(1) |
+| Remove at head | O(1) | O(1) |
+| Remove at tail | O(n) | O(1) |
+| Remove in middle | O(n) | O(n) |
