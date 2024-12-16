@@ -58,3 +58,66 @@ The dynamic array can **grow** and **shrink** in size.
 
 ### Complexity:
 ![Static and Dynamic Array Complexity](./static_and_dinamic_array_complexity.png)
+
+## Singly and Doubly Linked Lists
+
+### Linked list
+
+A **linked list** is a sequential list of nodes that hold data which point to other nodes also containing data.
+
+* Terminology:
+    * Head: The first node;
+    * Tail: The last node;
+    * Pointer: Reference to another node;
+    * Node: An object containing data and pointer(s)
+
+### Singly linked list vs. Doubly linked list
+Singly linked list only hold a reference to the next node.
+Doubly linked list hold a reference to the next and previous node.
+
+#### Pros and Cons
+| | Pros | Cons |
+| --- | --- | ---
+| Singly linked | Uses less memory / Simpler implementation | Cannot easilyacess previous elements
+| Doubly linked | Can be traversed backwards | Takes 2x memory
+
+#### Complexity
+
+| | Singly Linked | Doubly linked |
+| --- | --- | --- |
+| Search | O(n) | O(n) |
+| Insert at head | O(1) | O(1) |
+| Insert at tail | O(1) | O(1) |
+| Remove at head | O(1) | O(1) |
+| Remove at tail | O(n) | O(1) |
+| Remove in middle | O(n) | O(n) |
+
+## Stack
+
+Is a one-ended linear data structure which moels a real world stack by having two primary operations, namely **push** and **pop**.
+
+### Complexity
+
+| --- | --- |
+| Pushing | O(1) |
+| Popping | O(1) |
+| Peeking | O(1) |
+| Searching | O(n) |
+| Size | O(1) |
+
+## Queues
+
+A queue is a linear data structure which models real world queues by having two primary operations, namely **enqueue** and **dequeue**.
+
+**Enqueue:** put element in the back of the queue
+**Dequeue:** remove the element of the front of the queue
+
+ ### Complexity
+
+ | --- | --- |
+ | Enqueue | O(1) |
+ | Dequeue | O(1) |
+ | Peeking | O(1) |
+ | Contains | O(n) |
+ | Removal | O(n) |
+ | Is Empty | O(1) |
