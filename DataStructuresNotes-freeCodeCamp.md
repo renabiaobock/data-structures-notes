@@ -100,7 +100,7 @@ Is a one-ended linear data structure which moels a real world stack by having tw
 
 | --- | --- |
 | Pushing | O(1) |
-| Popping | O(1) |
+| Popping | O(1) | 
 | Peeking | O(1) |
 | Searching | O(n) |
 | Size | O(1) |
@@ -121,3 +121,23 @@ A queue is a linear data structure which models real world queues by having two 
  | Contains | O(n) |
  | Removal | O(n) |
  | Is Empty | O(1) |
+
+## Priority Queues
+
+A priority queue is an Abstract Data Type that operates similar to a normal queue except that **each elemnte has a certain priority**. The priority of the elements in the priority queue determine the order in which elements are removed from the PQ.
+
+Priority queues only supports **comparable data**, meaning the data inserted into the priority queue must be able to be ordered in some way either from least to greatest or greatest to least. This os so that we are able to assing relative priorities to each element.
+
+Priority queues are usually implemented with **heaps** since this gives them the best possible time comlexity.
+
+### Complexity
+
+--- | --- 
+Binary Heap constuction | O(n)
+Polling | O(log(n))
+Peeking | O(1)
+Adding | O(log(n))
+Naive Removing | O(n)
+Advanced removing with help from a hash table* | O(n)
+Naive contains | O(n)
+Contains check with with help of a hash table* | O(1)
