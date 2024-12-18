@@ -141,3 +141,14 @@ Naive Removing | O(n)
 Advanced removing with help from a hash table* | O(n)
 Naive contains | O(n)
 Contains check with with help of a hash table* | O(1)
+
+## Heaps
+
+A heap is a **tree** based data structure that satisfies the **heap invariant** (heap property): If A is a parent node of B  then A is ordered with respect to B for all nodes A, B in the heap.
+
+There are many types of heaps:
+1. Binary Heap
+2. Fibonacci Heap
+3. Binomial Heap
+4. Pairing Heap
+...
