@@ -152,3 +152,14 @@ There are many types of heaps:
 3. Binomial Heap
 4. Pairing Heap
 ...
+
+## Union Find
+
+**Union Find** is a data structure that keeps track of elements which are split nto one or more disjoint sets. Its has two primary operations: *find* and *union*.
+
+### When and where is a Union Find used?
+* Kruskal's minimum spanning tree algorithm
+* Grid percolation
+* Network connectivity
+* Least common ancestor in tress
+* Image processing
