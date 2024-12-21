@@ -203,3 +203,36 @@ NOTE: This step is note necessary in general, but it will allow us to construct 
 ### Path Compression Union Find
 
 We make every node point to the root node.
+
+## Binary Trees and Binary Search Trees
+
+A **tree** is an **undirected graph** which satisfies any of the following definitions:
+    * An acyclic connected graph;
+    * A connected graph with N nodes and N-1 edges;
+    * An graph in which any two vertices are connected by exactly one path.
+
+**Root node**: root of the tree
+**Child**: is a node extending from another node
+**Parent**: is the inverse of a child node
+**Leaf node**: is a node with no children
+**Subtree**: is a tree entirely contained within another
+
+### Binary tree
+
+A **binary tree** is a tree for wich every node has at most two child nodes
+
+#### When and where are Binary Trees used?
+
+* Binary Search Trees:
+    * Implementation of some map and set ADTs
+    * Red Black Trees
+    * AVL Trees
+    * Splay Tress
+    * etc
+* Used in the implementation of binary heaps
+* Syntax trees (used by compiler and calculators)
+* Treap - a probabilistic DS (uses a randomized BST)
+
+### Binary search tree 
+
+A **binary search tree** is a binary tree that satisfies the **BST invariant**: left subtree has smaller elements and right subtree has larger elements.
