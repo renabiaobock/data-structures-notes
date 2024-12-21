@@ -236,3 +236,12 @@ A **binary tree** is a tree for wich every node has at most two child nodes
 ### Binary search tree 
 
 A **binary search tree** is a binary tree that satisfies the **BST invariant**: left subtree has smaller elements and right subtree has larger elements.
+
+#### Complexity
+
+| Operation | Average | Worst |
+| --- | --- | --- |
+| Insert | O(log(n)) | O(n) |
+| Delete | O(log(n)) | O(n) |
+| Remove | O(log(n)) | O(n) |
+| Search | O(log(n)) | O(n) |
