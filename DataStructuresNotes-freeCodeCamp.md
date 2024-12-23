@@ -245,3 +245,32 @@ A **binary search tree** is a binary tree that satisfies the **BST invariant**: 
 | Delete | O(log(n)) | O(n) |
 | Remove | O(log(n)) | O(n) |
 | Search | O(log(n)) | O(n) |
+
+## Hash tables
+
+A **Hash table** is a data structure that provides a mapping from keys to values using a technique called **hashing**.
+
+### Hash function
+
+A **hash function** H(x) is a function that maps a key 'x' to a whole number in a fixed range.
+
+#### Properties of Hash functions
+
+1. If **H(x) = H(y)**, then objects x and y might be equal, but if **H(x) <> H(y)** then x and y are **certainly not equal**;
+2. A hash function H(x) must be **deterministic**;
+3. We try to ma make **uniform** hash functions to minimize the number of hash collisions;
+4. A **hash colision** is when two objects x, y hash to the same value
+
+#### How to handle hash collisions
+
+**Separate chaining** deals with hash collisions by maintaining a data structure (usually a linked list) to hold all the different values which hashed to a paticular value.
+
+**Open addressing** deals with hash collisions by finding another place within the hash table for the object to go by offsetting it from the position to which it hashed to.
+
+### Complexity
+
+| Operation | Average | Worst |
+| --- | --- | --- |
+| **Insertion** | O(1) | O(n) |
+| **Removal** | O(1) | O(n) |
+| **Search** | O(1) | O(n) |
