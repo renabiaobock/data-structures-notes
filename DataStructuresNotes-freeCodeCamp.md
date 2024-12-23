@@ -274,3 +274,7 @@ A **hash function** H(x) is a function that maps a key 'x' to a whole number in 
 | **Insertion** | O(1) | O(n) |
 | **Removal** | O(1) | O(n) |
 | **Search** | O(1) | O(n) |
+
+### Hash table Separate chaining
+
+**Separate chaining** is one of many strategies to deal with hash collisions by maintaining a data structure (usually a linked list) to hold all the different values which hashed to a particular value.
