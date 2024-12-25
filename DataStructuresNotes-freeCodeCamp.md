@@ -278,3 +278,13 @@ A **hash function** H(x) is a function that maps a key 'x' to a whole number in 
 ### Hash table Separate chaining
 
 **Separate chaining** is one of many strategies to deal with hash collisions by maintaining a data structure (usually a linked list) to hold all the different values which hashed to a particular value.
+
+### Hash table open addressing
+
+Main idea: if the position our key hashed to is occupied we try another position in the hash table by offsetting the current position subject to a **probing sequence P(x)**. We keep doing this until an unoccupied slot is found.
+
+There are an infinite amount of probing sequences:
+* Linear probing
+* Quadratic probing
+* Double hashing
+* Pseudo random number generator
