@@ -284,7 +284,22 @@ A **hash function** H(x) is a function that maps a key 'x' to a whole number in 
 Main idea: if the position our key hashed to is occupied we try another position in the hash table by offsetting the current position subject to a **probing sequence P(x)**. We keep doing this until an unoccupied slot is found.
 
 There are an infinite amount of probing sequences:
-* Linear probing
-* Quadratic probing
-* Double hashing
-* Pseudo random number generator
+* Linear probing: probes according to a linear formula P(x) = ax + b;
+* Quadratic probing: probes according to a quadratic formula;
+* Double hashing: probes according to a constant multiple of another hash function;
+* Pseudo random number generator.
+
+## Fenwick Tree
+(binary indexed Tree)
+
+A **Fenwick tree** is a data structure that supports sum range queries as well as setting values in a static array and getting the value of the prefix sum up some index efficiently.
+
+### Complexity
+| | |
+| --- | --- |
+| Construction | O(n) |
+| Point Update | O(log(n)) |
+| Range Sum | O(log(n)) |
+| Range Update | O(log(n)) |
+| Adding Index | N/A |
+| Removing Index | N/A |
