@@ -303,3 +303,7 @@ A **Fenwick tree** is a data structure that supports sum range queries as well a
 | Range Update | O(log(n)) |
 | Adding Index | N/A |
 | Removing Index | N/A |
+
+* Oppen addressing
+* Tree range queries
+* Tree oint updates
